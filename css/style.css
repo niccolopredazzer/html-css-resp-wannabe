@@ -10,6 +10,7 @@
         margin-right: auto;
         margin-top: 100px;
     }
+}
 /* BLOCCO LEZIONI */
 #lezioni .row > .left, #lezioni .row > .right{
   width: 50%;
