@@ -4,13 +4,7 @@
   margin-right: auto;
   margin-top: 100px;
 }
-@media screen and (min-width: 420px) {
-    .row {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 100px;
-    }
-}
+
 /* BLOCCO LEZIONI */
 #lezioni .row > .left, #lezioni .row > .right{
   width: 50%;
@@ -71,3 +65,9 @@ img{
 .clear {
   clear:both;
 }
+@media screen and (max-width: 420px) {
+
+    #lezioni .row > .left, #lezioni .row > .right{
+      width: 100vw;
+      float: none;
+    }
